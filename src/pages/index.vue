@@ -1,10 +1,11 @@
 <script setup lang="ts">
-const name = $ref('')
+import { ref } from 'vue'
+import { useRouter } from 'vue-router'
+const name = ref('')
 
 const router = useRouter()
 const go = () => {
-  if (name)
-    router.push(`/hi/${encodeURIComponent(name)}`)
+  if (name.value) { router.push(`/hi/${encodeURIComponent(name.value)}`) }
 }
 </script>
 
