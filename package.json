@@ -20,7 +20,7 @@
     "@unocss/reset": "^0.31.0",
     "@vitejs/plugin-vue": "^2.3.1",
     "@vue/test-utils": "^2.0.0-rc.19",
-    "@ysl07/eslint-config": "^1.0.0",
+    "@ysl07/eslint-config": "^1.0.1",
     "eslint": "^8.13.0",
     "jsdom": "^19.0.0",
     "typescript": "^4.6.3",
